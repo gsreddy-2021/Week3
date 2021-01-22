@@ -18,6 +18,14 @@ function pageLoad() {
   // write an if.. else if.. else statement to evaluate the value of 'total'
   // and set the value of 'output' appropriately
 
+  if (total == 7 || total == 11 || total == 10) {
+    output = 'you win!'
+  } else if (total == 2 || total == 3 || total == 12) {
+    output = 'you lose!'
+  } else {
+    output = `the point is ${total}`
+  }
+
   //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
 
   // Leave this alone
